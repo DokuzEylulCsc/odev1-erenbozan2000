@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h2>2019 Güz Döneminin ilk ödevi</h2>
-<label for="id1">Metin kutusu 1</label>
-<input type='text' id='id1' /> 
-<br>
-<label for="id2">Metin kutusu 2</label>
-<input type='text' id='id2' /> 
-<br><br>
-<button type="button">Topla</button>
-<br><br>
-<label for="id3">Metin kutusu 3</label>
-<input type='text' id='id3' /> 
-<br>
-<label for="id4">Metin kutusu 4</label>
-<input type='text' id='id4' /> 
-<br><br>
-<button type="button">Yapýþtýr</button>
-</body>
+	<head>
+		<title>Eren BOZAN 2018280010</title>
+	</head>
+	<body>
+
+		<h2>Eren BOZAN 2018280010</h2>
+		<label for="id1">birinci sayi</label>
+		<input type='text' id='id1' /> 
+		<br>
+		<label for="id2">ikini sayi</label>
+		<input type='text' id='id2' /> 
+		<br><br>
+		<button onclick="topla()" type="button">Topla</button>
+		<br><br>
+		<label for="id3">ilk girdi</label>
+		<input type='text' id='id3' /> 
+		<br>
+		<label for="id4">ikinci girdi</label>
+		<input type='text' id='id4' /> 
+		<br><br>
+		<button onclick="yapistir()" type="button">yapistir</button>
+		<script>
+			
+			
+			function topla() {
+				var a =Number( document.getElementById("id1").value);
+				var b = Number(document.getElementById("id2").value);
+					if(isNaN(a+b)){
+					alert("lutfen bir sayi giriniz!")
+					}
+				alert(a + b);
+					
+			}	
+			function yapistir() {
+				var a =( document.getElementById("id3").value);
+				var b =(document.getElementById("id4").value);
+				alert(a + b);
+				
+			}
+		</script>
+	</body>
 </html>
