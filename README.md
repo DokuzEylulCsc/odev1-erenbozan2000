@@ -1,3 +1,6 @@
+REFERANS:
+https://www.mkyong.com/javascript/check-if-variable-is-a-number-in-javascript/
+
 # Ödev 1
 Dönemin ilk ödevi için, klasörde HTML dosyası olarak verilmiş web sayfası içerisinde,
 1.	“Topla” düğmesine basınca “Metin Kutusu 1“ ve “Metin Kutusu 2” içerisine yazılmış iki sayıyı toplayarak sonucu “alert()” metodunu kullanarak ekrana çıkaran JavaScript kodunu yazınız. 
